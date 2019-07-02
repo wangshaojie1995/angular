@@ -75,6 +75,7 @@ node_repositories(
 yarn_install(
     name = "npm",
     package_json = "//:package.json",
+    prod_only = True,
     yarn_lock = "//:yarn.lock",
 )
 
